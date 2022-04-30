@@ -2,6 +2,9 @@
 @import "blocks/header.css";
 @import "blocks/buttons.css";
 @import "blocks/advantages.css";
+@import "blocks/consultation.css";
+@import "blocks/titles.css";
+@import "blocks/forms.css";
 * {
   font-family: "MuseoModerno", sans-serif;
 }
