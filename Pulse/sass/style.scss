@@ -1,9 +1,14 @@
 *{
   font-family: 'MuseoModerno', sans-serif;
 }
+body{
+  margin: 0;
+}
 .container{
   max-width: 950px;
   margin: 0 auto;
 }
 @import "blocks/promo.css";
 @import "blocks/header.css";
+@import "blocks/buttons.css";
+@import "blocks/advantages.css";
