@@ -5,6 +5,7 @@
 @import "blocks/consultation.css";
 @import "blocks/titles.css";
 @import "blocks/forms.css";
+@import "blocks/slider.css";
 * {
   font-family: "MuseoModerno", sans-serif;
 }

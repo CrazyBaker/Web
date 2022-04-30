@@ -1,0 +1,36 @@
+.slider {
+  padding: 81px 0;
+}
+.slider__inner {
+  position: relative;
+  width: 750px;
+  margin: 0 auto;
+}
+.slider .slick-prev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -66px;
+  border: none;
+  background-color: #fff;
+}
+.slider .slick-prev img {
+  display: block;
+  width: 31px;
+  height: 50px;
+}
+.slider .slick-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -66px;
+  border: none;
+  background-color: #fff;
+}
+.slider .slick-next img {
+  display: block;
+  width: 31px;
+  height: 50px;
+}
+
+/*# sourceMappingURL=slider.css.map */
