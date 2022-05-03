@@ -11,6 +11,8 @@ let personalMovieDB = {
     showMyDB: function () {
         if (personalMovieDB.privat === false) {
             show(personalMovieDB);
+        } else {
+            show("База данных скрыта !");
         }
     }
 };
@@ -29,7 +31,7 @@ function start() {
     }
     personalMovieDB.count = numberOfFilms;
 }
-console.log(numberOfFilms);
+
 start();
 
 let filmTitleValidation = function(film) {
