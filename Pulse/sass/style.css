@@ -8,6 +8,7 @@
 @import "blocks/slider.css";
 @import "blocks/catalog.css";
 @import "blocks/feedback.css";
+@import "blocks/footer.css";
 * {
   font-family: "MuseoModerno", sans-serif;
 }
