@@ -1,0 +1,114 @@
+@font-face {
+    font-family: "Axioma";
+    font-weight: 800;
+    src: url("/SaaS delivery/font/Axiforma-ExtraBold.woff2") format("woff2"),
+    url("/SaaS delivery/font/Axiforma-ExtraBold.woff") format("woff");
+}
+@font-face {
+    font-family: "Axioma";
+    font-weight: 700;
+    src: url("/SaaS delivery/font/Axiforma-Bold.woff2") format("woff2"),
+    url("/SaaS delivery/font/Axiforma-Bold.woff") format("woff");
+}
+@font-face {
+    font-family: "Axioma";
+    font-weight: 600;
+    src: url("/SaaS delivery/font/Axiforma-SemiBold.woff2") format("woff2"),
+    url("/SaaS delivery/font/Axiforma-SemiBold.woff") format("woff");
+}
+@font-face {
+    font-family: "Axioma";
+    font-weight: 500;
+    src: url("/SaaS delivery/font/Axiforma-Medium.woff2") format("woff2"),
+    url("/SaaS delivery/font/Axiforma-Medium.woff") format("woff");
+}
+@font-face {
+    font-family: "Axioma";
+    font-weight: 400;
+    src: url("/SaaS delivery/font/Axiforma-Regular.woff2") format("woff2"),
+    url("/SaaS delivery/font/Axiforma-Regular.woff") format("woff");
+}
+
+* {
+    font-family: Axiforma, sans-serif;
+}
+body {
+    margin: 0;
+}
+.button {
+    box-sizing: border-box;
+    width: 206px;
+    height: 68px;
+    background: #F48C06;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 21px;
+    color: #FFFFFF;
+    margin: 0 10px;
+    border: none;
+    transition: 0.5s all;
+
+    &:hover {
+        background: #e28900;
+        box-shadow: 5px 5px 15px #0d0d0d;
+    }
+    &_small {
+        width: 135px;
+        height: 62px;
+        font-size: 19px;
+    }
+    &_login {
+        width: 135px;
+        height: 62px;
+        font-size: 19px;
+        background: #FFFFFF;
+        color: #5752DA;
+        transition: 0.5s all;
+        &:hover {
+            background: #37C8DC;
+            color: #FFFFFF;
+        }
+    }
+}
+.container {
+    margin: 0 auto;
+    width: 1280px;
+}
+.header {
+    background-color: #474ED3;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        height: 100px;
+    }
+    &__logo{
+        align-self: center;
+    }
+    &__list {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 790px;
+        padding: 0;
+    }
+    &__item {
+        margin-right: 55px;
+        list-style-type: none;
+        transition: 0.5s all;
+        a {
+            font-weight: 500;
+            font-size: 18px;
+            color: #FFFFFF;
+            text-decoration: none;
+            transition: 0.5s all;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+        &:nth-child(4) {
+            margin-right: 66px;
+        }
+    }
+}
+

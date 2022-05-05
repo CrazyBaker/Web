@@ -97,5 +97,4 @@ document.addEventListener("DOMContentLoaded", () =>{
     makeChanges();
     deleteAdv(advBlock.childNodes);
     createMovieList(movieDB.movies, movieList);
-
 });
