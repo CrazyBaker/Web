@@ -9,6 +9,7 @@
 @import "blocks/catalog.css";
 @import "blocks/feedback.css";
 @import "blocks/footer.css";
+@import "blocks/modal.css";
 * {
   font-family: "MuseoModerno", sans-serif;
 }
