@@ -1,0 +1,28 @@
+@import "animations.css";
+@import "blocks/promo.css";
+@import "blocks/header.css";
+@import "blocks/buttons.css";
+@import "blocks/advantages.css";
+@import "blocks/consultation.css";
+@import "blocks/titles.css";
+@import "blocks/forms.css";
+@import "blocks/slider.css";
+@import "blocks/catalog.css";
+@import "blocks/feedback.css";
+@import "blocks/footer.css";
+@import "blocks/modal.css";
+@import "blocks/page-up.css";
+* {
+  font-family: "MuseoModerno", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=style.css.map */

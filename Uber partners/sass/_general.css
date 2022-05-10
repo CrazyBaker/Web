@@ -3,7 +3,7 @@
  * 82 |   @include button_hover
  *    |   ^^^^^^^^^^^^^^^^^^^^^
  *    '
- *   _general.sass 82:3  root stylesheet */
+ *   _general.css 82:3  root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",

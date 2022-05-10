@@ -50,11 +50,65 @@ $(document).ready(function(){
         });
     });
 
-    $('.feed-form').validate();
-    $('#consultation form').validate();
+    function validateForms(form) {
+        $(form).validate({
+            rules: {
+                name: 'required',
+                phone: 'required',
+                email: {
+                    required: true,
+                    email: true
+                }
+
+            },
+            messages: {
+                name: 'Пожалуйста, введите свое имя',
+                phone: 'Пожалуйста введлите свой телефон',
+                email: {
+                    required: 'Пожалуйста, введите свой email',
+                    name: 'Ваш email адресс должен иметь формат example@domain.com',
+                    email: 'Ваш email адресс должен иметь формат example@domain.com'
+                }
+            }
+        });
+    }
+
+    validateForms('#consultation-form');
+    validateForms('#order form');
+    validateForms('#consultation form');
+
+    $('input[name = phone]').mask('+7 (999) 999-99-99');
+
+    $('form').submit(function (e) {
+        e.preventDefault();
+        $.ajax({
+            type: 'POST',
+            url: 'PHPMailer/PHPMailer.php',
+            data: $(this).serialize()
+        }).done(function () {
+            $(this).find('input').val('');
+
+
+            $('form').trigger('reset');
+        });
+        return false;
+    });
+
+    // scroll
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 1600) {
+            $('.page-up').fadeIn();
+        } else {
+            $('.page-up').fadeOut();
+        }
+    });
+
+    $('a[href=#up]').click(function () {
+        const _href =  $(this).attr('href');
+        $('html, body').animate({scrollTop: $(_href).offset().top+'px'});
+        return false;
+    });
+
+    new WOW().init();
 });
-
-
-
-
-

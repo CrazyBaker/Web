@@ -1,0 +1,23 @@
+.consultation {
+  min-height: 680px;
+  padding: 100px 0 92px 0;
+  background: url("../../img/consultation_bg.png") center center/cover no-repeat;
+}
+.consultation__description {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+.consultation .error {
+  border: 1px solid red;
+  text-align: center;
+}
+.consultation label.error {
+  color: #fff;
+  border: none;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/*# sourceMappingURL=consultation.css.map */
