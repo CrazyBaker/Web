@@ -1,7 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
-
+@import "base/variables";
 * {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+@import "base/variables.scss";
+@import "blocks/promo.css";
+@import "blocks/title.css";
+@import "blocks/btns.css";
