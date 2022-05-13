@@ -2,6 +2,8 @@
 @import "blocks/promo.css";
 @import "blocks/title.css";
 @import "blocks/btns.css";
+@import "blocks/side-panel.css";
+@import "blocks/menu.css";
 * {
   font-family: "Poppins", sans-serif;
   margin: 0;

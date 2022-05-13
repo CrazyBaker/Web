@@ -9,10 +9,26 @@
   width: 535px;
   margin-top: 10px;
 }
+.promo__subtitle {
+  position: relative;
+  padding-left: 10px;
+  z-index: 2;
+}
+.promo__subtitle:before {
+  top: -25%;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+  border-radius: 100%;
+  content: "";
+  width: 36px;
+  height: 36px;
+  background: #FFA501;
+}
 .promo__btns {
   margin-top: 25px;
   display: flex;
-  width: 250px;
+  width: 300px;
   align-items: center;
   justify-content: space-between;
 }
@@ -20,9 +36,6 @@
   color: #000;
   font-weight: bold;
   transition: 1s all;
-}
-.promo__link:hover {
-  background-color: #FFA501;
 }
 
 /*# sourceMappingURL=promo.css.map */
