@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
 @import "base/variables";
+@import "base/mixins";
 * {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -11,10 +12,25 @@
     width: 1140px;
     margin: 0 auto;
 }
+.divider {
+    height: 3px;
+    width: 60px;
+    background-color: #FFA501;
+    margin: 25px auto 0 auto;
+}
 
-@import "base/variables.scss";
+@import "base/variables";
 @import "blocks/promo.css";
 @import "blocks/title.css";
 @import "blocks/btns.css";
 @import "blocks/side-panel.css";
 @import "blocks/menu.css";
+@import "blocks/about.css";
+
+@import "blocks/resume";
+@import "blocks/skills";
+@import "blocks/portfolio";
+@import "blocks/price-list";
+@import "blocks/contacts";
+@import "blocks/btn";
+@import "blocks/media";
