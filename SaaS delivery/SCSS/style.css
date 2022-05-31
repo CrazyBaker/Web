@@ -72,7 +72,7 @@ body {
 }
 
 .header {
-  background-color: #474ED3;
+  background-color: #5752DA;
 }
 .header__wrapper {
   display: flex;
@@ -107,6 +107,28 @@ body {
 }
 .header__item:nth-child(4) {
   margin-right: 66px;
+}
+
+.promo {
+  background: url("../img/promo backround.png") center center/cover no-repeat;
+}
+.promo__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.promo__description {
+  width: 680px;
+}
+.promo__title {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 800;
+  font-size: 55px;
+  line-height: 63px;
+  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=style.css.map */
