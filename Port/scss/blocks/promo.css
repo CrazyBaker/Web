@@ -1,0 +1,41 @@
+.promo {
+  box-sizing: border-box;
+  min-height: 100vh;
+  position: relative;
+  background: url("../../img/Background.jpg") no-repeat 50%/cover;
+  padding-top: 205px;
+}
+.promo__title {
+  width: 535px;
+  margin-top: 10px;
+}
+.promo__subtitle {
+  position: relative;
+  padding-left: 10px;
+  z-index: 2;
+}
+.promo__subtitle:before {
+  top: -25%;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+  border-radius: 100%;
+  content: "";
+  width: 36px;
+  height: 36px;
+  background: #FFA501;
+}
+.promo__btns {
+  margin-top: 25px;
+  display: flex;
+  width: 300px;
+  align-items: center;
+  justify-content: space-between;
+}
+.promo__link {
+  color: #000;
+  font-weight: bold;
+  transition: 1s all;
+}
+
+/*# sourceMappingURL=promo.css.map */
