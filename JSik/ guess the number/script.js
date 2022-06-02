@@ -21,6 +21,7 @@ function getRandomNumber(minNumber, maxNumber) {
     return Math.trunc(Math.random() * (maxNumber - minNumber) + minNumber + 1) ;
 }
 
+
 let compareScore = function (oldScore, newScore) {
     if (oldScore >= newScore) {
         return oldScore;
